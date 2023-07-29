@@ -29,9 +29,11 @@ const data = {
       'rgb(201, 203, 207)'
     ],
     borderWidth: 1,
-    barThickness: 150,
+    barThickness: 130,
   }]
 };
+
+
 
 const config = {
   type: 'bar',
@@ -41,8 +43,10 @@ const config = {
       x: {
         beginAtZero: true
       }
-    }
+    },
+
   },
+
 };
 
 const myChart = new Chart(ctx, config, data)

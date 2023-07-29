@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="./styles/index.css" />
   <script defer src="./javascript/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -61,29 +62,48 @@
     </h3>
   </header>
 
-  
-    <section class="container my-5 row ">
-      <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 my-5 ">
-        <div class="text-center">
-          <h5>Nacido en Tlatlauquitepec Puebla</h5>
-          <h6>22 años de edad</h6>
+  <main class="container">
+    <section class="container my-5">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 my-5 ">
+          <div class="text-center">
+            <h5>Nacido en Tlatlauquitepec Puebla</h5>
+            <h6>22 años de edad</h6>
+          </div>
+          <img src="/images/wes_1.jpg" class="object-fit-cover border rounded-circle" id="imgProfile" alt="Foto de perfil">
         </div>
-        <img src="/images/wes_1.jpg" class="object-fit-cover border rounded-circle" id="imgProfile" alt="Foto de perfil">
-      </div>
-      <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 my-5">
-        <h4>Codificar y la mecatronica es lo que soy...</h4>
-        <p>Actualmente soy un estudiante de la carrera de mectronica en la cual he desaroollado diversas habilidades en diversas areas que hacen
-          que me pueda considerar como alguien muy capaz de realizar diversas tareas, soy bueno trabajando con lengujaes de programación como C, C++ y en el IDE 
-          de Arduino, tengo experiencia trabajando con progrmas de ingenieria como Matlab, Simulink y SolidWorks, y tambien tengo experiencia en el area de Front End, 
-          con el uso de lenguajes como CSS, HTML, JavaScript, manejo de API's, etc.
-        </p>
+        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 my-5"  data-aos="slide-right">
+          <h4>Codificar y la mecatronica es lo que soy...</h4>
+          <p>Actualmente soy un estudiante de la carrera de mectronica en la cual he desaroollado diversas habilidades en diversas areas que hacen
+            que me pueda considerar como alguien muy capaz de realizar diversas tareas, soy bueno trabajando con lengujaes de programación como C, C++ y en el IDE 
+            de Arduino, tengo experiencia trabajando con progrmas de ingenieria como Matlab, Simulink y SolidWorks, y tambien tengo experiencia en el area de Front End, 
+            con el uso de lenguajes como CSS, HTML, JavaScript, manejo de API's, etc.
+          </p>
+        </div>
       </div>
     </section>
 
-    <section class="bg-dark my-5 p-5">
+    <section class="container my-5 p-5" data-aos="flip-right">
+      <h4>Tecnologias que manejo: </h4>
       <canvas id="myChart" height="120" width="300"></canvas>
     </section>
 
-  
+    <section class="container bg-dark rounded my-5 py-2">
+      <h4 data-aos="slide-right">Competencias</h4>
+      <div class="row p-2">
+        <p class="bg-warning rounded-circle col-3 competencias">Trabajo en equipo</p>
+        <p class="bg-warning rounded-circle col-3 competencias">Liderazgo</p>
+        <p class="bg-warning rounded-circle col-3 competencias">Inteligencia emocional</p>
+        <p class="bg-warning rounded-circle col-3 competencias">Adaptabilidad</p>
+      </div>
+      
+    </section>
+  </main>
+    
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

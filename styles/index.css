@@ -52,3 +52,10 @@ p{
   font-size: 18px;
   text-align: center;
 }
+
+.competencias {
+  height: 300px;
+  text-align: center;
+  top: 50%;
+  
+}
