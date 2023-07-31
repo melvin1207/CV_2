@@ -1,7 +1,7 @@
 const ctx = document.querySelector('#myChart');
 
-const technologies = ['HTML', 'CSS', 'JavaScript', 'SolidWorks', 'Matlab', 'Arduino', 'C++', 'LabView', 'Simulink']
-const levels = [90, 95, 60, 75, 50, 65, 85, 85, 30]
+const technologies = ['HTML', 'CSS', 'JavaScript', 'SolidWorks', 'Matlab', 'Arduino', 'C++', 'LabView', 'Simulink', 'Inkscape', 'PLC`s']
+const levels = [90, 95, 60, 75, 50, 65, 85, 85, 30, 72, 35]
 
 
 
@@ -29,7 +29,7 @@ const data = {
       'rgb(201, 203, 207)'
     ],
     borderWidth: 1,
-    barThickness: 130,
+    barThickness: 50,
   }]
 };
 
